@@ -10,7 +10,7 @@ module.exports = {
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
-      "jsx": true
+      "jsx": false
     },
     "sourceType": "module"
   },
@@ -21,5 +21,6 @@ module.exports = {
     "quotes": ["error","single"],
     "semi": ["error","always"],
     "no-console": ["warn", { "allow": ["info", "error"] }]
-  }
+  },
+  eslintIgnore: ["*.html"]
 };
