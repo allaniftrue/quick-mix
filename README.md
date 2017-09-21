@@ -1,10 +1,11 @@
-##npm packages
+## npm packages
 - Laravel mix - https://github.com/JeffreyWay/laravel-mix
 - cross-env - For windows users
 - eslint
 
-##editor config
-	- sublime
+## editor config
+	- sublime linter
+	
 		```
 		{
 		    "user": {
